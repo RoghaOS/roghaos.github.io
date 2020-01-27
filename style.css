@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Comforta;
+    src: url('Comfortaa-VariableFont:wght.ttf');
+}    
+
+body {
+    font-family: Comfortaa, Cantarell, 'Noto Sans', Sans;
+    background: LightGrey;
+    text-decoration: none;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+#white_text_box {
+    background: GhostWhite;
+    padding: 5em;
+    padding-top: 1em;
+    border: 1px solid Grey;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+h1, h2, h3{
+    color: Black;
+    text-shadow: 2px 2px 2px LightGrey;
+}
+
+p {
+    color: Black;
+    text-align: justify;
+}
+
+ul.top_menu {
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 2px LightGrey;
+}
+
+a {
+    color: Black;
+    text-decoration: none;   
+}
+
+li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
