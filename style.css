@@ -7,14 +7,14 @@ body {
     font-family: Comfortaa, Cantarell, 'Noto Sans', Sans;
     background: LightGrey;
     text-decoration: none;
-    padding-left: 10em;
-    padding-right: 10em;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #white_text_box {
     background: GhostWhite;
-    padding: 5em;
-    padding-top: 1em;
+    padding: 10%;
+    padding-top: 10%;
     border: 1px solid Grey;
     box-sizing: border-box;
     border-radius: 10px;
