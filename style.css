@@ -1,48 +1,84 @@
 @font-face {
-    font-family: Comforta;
-    src: url('Comfortaa-VariableFont:wght.ttf');
+	font-family:	Comforta;
+	src: 			url('Comfortaa-VariableFont:wght.ttf');
 }    
 
+
+* {	font-family:	Comfortaa, Cantarell, 'Noto Sans', Sans;
+	box-sizing:	border-box;
+	letter-spacing: 0.07em;
+	line-height:	1.3em;
+}
+
+a, p {
+	font-size:		0.8em;
+	text-shadow:	0px 0px 3px White;
+}
+
 body {
-    font-family: Comfortaa, Cantarell, 'Noto Sans', Sans;
-    background: LightGrey;
-    text-decoration: none;
-    padding-left: 5%;
-    padding-right: 5%;
+	background:	LightGrey;
+	padding-left:	5%;
+	padding-right:	5%;
 }
 
-#white_text_box {
-    background: GhostWhite;
-    padding: 10%;
-    padding-top: 10%;
-    border: 1px solid Grey;
-    box-sizing: border-box;
-    border-radius: 10px;
+#main_block {
+	background:	GhostWhite;
+	padding-top:	10%;
+	padding-left:	8%;
+	padding-right:	8%;
+	border:		1px solid Black;
+	border-radius:	0.7em;
 }
 
-h1, h2, h3{
-    color: Black;
-    text-shadow: 2px 2px 2px LightGrey;
+#block1 {
+	width:			100%;
+}
+
+#block2 {
+	width:			100%;
+}
+
+#block3 {
+	width:			100%;
+}
+
+h1, h2, h3, h4 {
+	color:			Black;
+	text-shadow:	2px 2px 2px LightGrey;
+	text-align:	left;
 }
 
 p {
-    color: Black;
-    text-align: justify;
+	color:			Black;
+	text-align:	justify;
 }
 
-ul.top_menu {
-    margin: 0px;
-    padding: 0px;
-    text-shadow: 2px 2px 2px LightGrey;
+.top_menu {
+	margin:		0px;
+	padding:		0px;
+	text-align:	left;
+}
+
+ul.li.a1 {
+	color:			Orange;
+	background:	Red;
 }
 
 a {
-    color: Black;
-    text-decoration: none;   
+	color:			Black;
+	text-decoration: none;
+}
+
+a:hover {
+	color:			White;
+	text-shadow:	2px 2px 2px Black;
 }
 
 li {
-    display: inline;
-    padding-left: 1em;
-    padding-right: 1em;
+	display:		inline;
+	padding-right:	4%;
+}
+
+#block4 {
+	color: Blue;
 }
