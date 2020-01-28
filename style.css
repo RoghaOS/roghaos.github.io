@@ -1,11 +1,13 @@
 @font-face {
 	font-family:	Comfortaa;
+	font-style:	normal;
+	font-weight:	400;
+	font-display:	swap;
 	src:		local('Comfortaa');
-			url('https://roghaos.github.io/Comfortaa.ttf') format ('truetype');
-}    
+  	src:	        url('../roghaos.github.io/Comfortaa.ttf');
+}
 
-
-* {	font-family:	Comfortaa, Cantarell, 'Noto Sans', Sans;
+* {	font-family:	Comfortaa, Cantarell, 'Noto Sans', sans, cursive;
 	box-sizing:	border-box;
 	letter-spacing: 0.07em;
 	line-height:	1.3em;
