@@ -14,8 +14,9 @@ body {
 	min-width: 480;
 	padding-left: 20%;
 	padding-right: 20%;
-  text-decoration:disabled;
+  	text-decoration:disabled;
 	color:black;
+	text-align: justify;
 }
 
 #main_block {
