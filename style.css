@@ -1,38 +1,27 @@
 @font-face {
-	font-family:	Comfortaa;
-	font-style:	normal;
+	font-family:  Comfortaa;
+	font-style:   normal;
 	font-weight:	400;
-	font-display:	swap;
-	src:		local('Comfortaa');
-  	src:	        url('../roghaos.github.io/Comfortaa.ttf');
+  src:          local('Comfortaa');
+  src:	        url('../roghaos.github.io/Comfortaa.ttf');
 }
 
 * {	font-family:	Comfortaa, Cantarell, 'Noto Sans', sans, cursive;
 	box-sizing:	border-box;
-	letter-spacing: 0.07em;
-	line-height:	1.3em;
-}
-
-a, p {
-	font-size:		0.8em;
-	text-shadow:	0px 0px 3px White;
 }
 
 body {
-	background:	LightGrey;
-	padding-left:	5%;
-	padding-right:	5%;
+	min-width: 480;
+	padding-left: 20%;
+	padding-right: 20%;
+  text-decoration:disabled;
+	color:black;
 }
 
 #main_block {
-	background:	GhostWhite;
-	padding-top:	10%;
-	padding-left:	8%;
-	padding-right:	8%;
-	border:		1px solid Black;
-	border-radius:	0.7em;
+	border-block: 2px solid black;
 }
-
+/*
 #block1 {
 	width:			100%;
 }
@@ -44,34 +33,31 @@ body {
 #block3 {
 	width:			100%;
 }
-
+*/
 h1, h2, h3, h4 {
-	color:			Black;
 	text-shadow:	2px 2px 2px LightGrey;
 	text-align:	left;
 }
 
 p {
-	color:			Black;
-	text-align:	justify;
+	text-shadow:	2px 2px 2px LightGrey;
 }
 
 .top_menu {
-	margin:		0px;
-	padding:		0px;
-	text-align:	left;
-}
-
-ul.li.a1 {
-	color:			Orange;
-	background:	Red;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 a {
-	color:			Black;
 	text-decoration: none;
+	color: black;
 }
-
+/*
+#a1 {;}
+#a2 {;}
+#a3 {;}
+#a4 {;}
+*/
 a:hover {
 	color:			White;
 	text-shadow:	2px 2px 2px Black;
@@ -79,9 +65,9 @@ a:hover {
 
 li {
 	display:		inline;
-	padding-right:	4%;
+	padding-right:	5%;
 }
-
+/*
 #block4 {
-	color: Blue;
 }
+*/
