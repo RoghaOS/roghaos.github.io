@@ -1,6 +1,7 @@
 @font-face {
 	font-family:	Comfortaa;
-	src:		url(Comfortaa.ttf);
+	src:		local('Comfortaa');
+			url('../Comfortaa.ttf') format ('truetype');
 }    
 
 
