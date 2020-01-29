@@ -11,9 +11,11 @@
 }
 
 body {
-	min-width: 480;
+	min-width: 256;
+	margin:auto;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-top: 10%;
   	text-decoration:disabled;
 	color:black;
 	text-align: justify;
@@ -41,7 +43,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-	text-shadow:	2px 2px 2px LightGrey;
+	text-shadow:	1px 1px 2px LightGrey;
 }
 
 .top_menu {
